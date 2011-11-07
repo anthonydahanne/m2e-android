@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <extension
+          point="org.eclipse.m2e.core.projectConfigurators">
+       <configurator
+             class="net.dahanne.eclipse.m2e.android.AndroidProjectConfigurator"
+             id="net.dahanne.eclipse.m2e.android.androidProjectConfigurator"
+             name="Android m2eclipse Configurator">
+       </configurator>
+    </extension>
+    <extension
+          point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+    </extension>
+</plugin>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+	<pluginExecutions>
+		<pluginExecution>
+			<pluginExecutionFilter>
+				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<versionRange>[2.0.0,4.0.0)</versionRange>
+				<goals>
+					<goal>generate-sources</goal>
+					<goal>unpack</goal>
+				</goals>
+			</pluginExecutionFilter>
+			<action>
+				<configurator>
+					<id>net.dahanne.eclipse.m2e.android.androidProjectConfigurator</id>
+				</configurator>
+			</action>
+		</pluginExecution>
+		<pluginExecution>
+			<pluginExecutionFilter>
+				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<artifactId>maven-android-plugin</artifactId>
+				<versionRange>[2.0.0,4.0.0)</versionRange>
+				<goals>
+					<goal>generate-sources</goal>
+					<goal>unpack</goal>
+				</goals>
+			</pluginExecutionFilter>
+			<action>
+				<configurator>
+					<id>net.dahanne.eclipse.m2e.android.androidProjectConfigurator</id>
+				</configurator>
+			</action>
+		</pluginExecution>
+	</pluginExecutions>
+</lifecycleMappingMetadata>
